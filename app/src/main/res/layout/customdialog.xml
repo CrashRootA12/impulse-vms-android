@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="280dp">
+
+    <ImageButton
+        android:id="@+id/close"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="32dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center|right"
+        android:layout_margin="5dp"
+        android:text="Close"
+        android:textStyle="bold"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <TextView
+        android:id="@+id/titleId"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:fontFamily="sans-serif"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:background="#1f4068"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/logo" />
+    <TextView
+        android:layout_width="237dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="This App is created by Shivam and Jaskirat (Team 3)"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+
+
+</LinearLayout>
