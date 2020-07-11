@@ -4,4 +4,4 @@ This is the webview based *(Android Native/Java)* application for the __Impulse 
  
 ![Impulse VMS Logo](/logo.svg)
 
-**_Web App and Mobile App are designed by @CrashRootA12 and @ShivamSinghal336_**
+**_Web App and Mobile App are designed by @CrashRootA12 and @Shivam336_**
